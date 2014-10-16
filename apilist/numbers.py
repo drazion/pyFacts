@@ -41,7 +41,4 @@ class NumbersAPI:
     def build_url(self):
         return self.base_url + str(self.variables) + '/' + str(self.chosen_method)
 
-    def fetch_result(self):
-        url = self.build_url()
-
 
