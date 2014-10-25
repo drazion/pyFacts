@@ -8,7 +8,7 @@ class TwitterAPI:
                                      consumer_secret=keys.consumer_secret,
                                      access_token_key=keys.access_token_key,
                                      access_token_secret=keys.access_token_secret)
-        self.text = str(text)
+        self.text = text
 
     def postStatus(self):
         self.api.PostUpdate(self.text)

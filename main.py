@@ -37,7 +37,7 @@ class Facts:
             new_url = self.get_url()
             self.send_request(new_url)
         #Parse Numbers API Result
-        if self.facts_api == 'numbers':
+        elif self.facts_api == 'numbers':
             parsed_result = result
             self.postStatus(parsed_result)
         #Parse CatFacts results
