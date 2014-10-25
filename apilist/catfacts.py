@@ -2,6 +2,7 @@ import random
 
 class CatfactsAPI:
     def __init__(self):
+        self.public_url = 'http://goo.gl/K2BaxH'
         self.base_url = self.api_address()
         self.method_list = self.available_methods()
         self.chosen_method = self.choose_method()
