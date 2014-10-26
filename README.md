@@ -6,9 +6,10 @@ I have a bit of work to do on cleanup and documentation, there are currently som
 run, but it works.
 
 Required Packages:
-requests
-random
-TwitterAPI
+------------------
+* requests
+* random
+* TwitterAPI
 
 You can see it in action at https://twitter.com/drazion
 
