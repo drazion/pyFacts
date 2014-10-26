@@ -22,5 +22,11 @@ class CatfactsAPI:
         variables_string = self.chosen_method
         return variables_string
 
+    def parse_response(self, result):
+        result = str(result["facts"])
+        result = result.replace('[u\'', '')
+        result = result.replace('\']', '')
+        return result
+
     def build_url(self):
         return self.base_url + str(self.chosen_method)

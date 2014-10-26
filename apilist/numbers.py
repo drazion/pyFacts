@@ -39,6 +39,9 @@ class NumbersAPI:
 
         return variables_string
 
+    def parse_response(self, result):
+       return result
+
     def build_url(self):
         return self.base_url + str(self.variables) + '/' + str(self.chosen_method)
 
