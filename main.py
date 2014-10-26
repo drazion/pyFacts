@@ -23,7 +23,7 @@ class Facts:
         #Catfacts API
         elif self.facts_api_name == 'catfacts':
             self.facts_api = catfacts.CatfactsAPI()
-            self.api_public_url = fact.public_url
+            self.api_public_url = self.facts_api.public_url
             return self.facts_api.build_url()
 
     #Send the request to the API
