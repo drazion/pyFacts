@@ -37,11 +37,11 @@ class Facts:
         #init parsed result
         parsed_result = ''
 
-        #If the response length is too long for twitter
-        #resend and call send_request again
+        #If the response length is too long for twitter - resend and call send_request again
         if self.too_long(result) == 1:
             new_url = self.get_url()
             self.send_request(new_url)
+        #Else parse the response and pass it to post_status()
         else:
             self.post_status(self.facts_api.parse_response(result))
 
