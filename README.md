@@ -5,6 +5,11 @@ A pyFacts API that currently reaches out to numbersapi and catfacts to pull rand
 I have a bit of work to do on cleanup and documentation, there are currently some wonky ways the code is being
 run, but it works.
 
+Required Packages:
+requests
+random
+TwitterAPI
+
 You can see it in action at https://twitter.com/drazion
 
 If you want to play around with it, you will need to create a keys.py in your parent folder and structure it as follows:

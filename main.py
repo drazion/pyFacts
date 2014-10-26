@@ -1,6 +1,5 @@
 import random
 import requests
-import json
 
 from apilist import numbers
 from apilist import catfacts
