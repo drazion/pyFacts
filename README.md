@@ -19,7 +19,7 @@ If you want to play around with it, you will need to create a keys.py in your pa
 class privateKeys():
     def __init__(self):
         self.consumer_key='your_key_here'
-        self.consumer_secret='your_key_here',
-        self.access_token_key='your_key_here',
+        self.consumer_secret='your_key_here'
+        self.access_token_key='your_key_here'
         self.access_token_secret='your_key_here'
 ```
